@@ -3,6 +3,7 @@ Write a program that converts a temperature from Celsius to Fahrenheit. It shoul
 
 Enter a temperature in Celsius: 24
 
+
 24.0 C = 75.2 F
 
 Class ConvertTemp
