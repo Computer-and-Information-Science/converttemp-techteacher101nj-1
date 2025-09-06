@@ -1,19 +1,30 @@
-Create a **student** class in java. 
-The student should have 3  private data members:
-* private String name
-* private int id
-* private double gpa
+Write a program that converts a temperature from Celsius to Fahrenheit. It should (1) prompt the user for input, (2) read a double value from the keyboard, (3) calculate the result, and (4) format the output to one decimal place. When it’s finished, it should work like this:
 
-  It should have one constructor, that takes in all three pieces of data, and assigns them using the **this** operator;
+Enter a temperature in Celsius: 24
 
-  Each data member should have a corresponding *getter* that allows another program to **get** information about the student, and a *setter* that allows someone to **set**  information for the student.
+24.0 C = 75.2 F
 
-  It should also have a method called dispayStudent() which will output information about the student in this way:
-  The student Bob Moore has an id of 87678 with a gpa of 3.5.
+Class ConvertTemp
 
-  In the main() method, create a **student** object  with the name "Lisa Waddell", id of 54321, and gpa of 2.5, then call the displayStudent() method to generate the ouput
+This class should have two double data members - cTemp (the c=Celcius temperature) and fTemp (the Farenheit temperature).
 
-  The student Lisa Waddell has an id of 54321 with a gpa of 2.5.
+This class should have the following methods: 
 
-  Make sure to rename your codespace so you can find this in the future!
-  
+1 constructor that takes as input the temp in Celcius as type double. Do the conversion in the constructor, and store the value in fTemp.
+
+2 getter methods for fTemp and cTemp
+
+A method called updateTemps(double cTemp) that updates both cTemp and fTemp of the object.
+
+Class Main
+
+Create a Scanner object to read input
+
+Prompt the user for input
+
+Create any necessary variables you will need to store the input
+
+Create a ConvertTemp object
+
+Use System.out.printf to print the string as stated above.
+
